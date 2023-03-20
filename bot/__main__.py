@@ -207,7 +207,7 @@ def log(update, context):
 
 
 help_string = '''
-<b><a href='https://github.com/SN-ABDULLAH-AL-NOMAN/SN-MLTB'>SN-MLTB</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
+<b><a href='https://t.me/CobraMovies_Team'>Cobra Movies</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
 Choose a help category:
 '''
 
@@ -500,7 +500,7 @@ def main():
     dispatcher.add_handler(stats_handler)
     dispatcher.add_handler(log_handler)
     updater.start_polling(drop_pending_updates=IGNORE_PENDING_REQUESTS)
-    LOGGER.info("💥 𝐁𝐨𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝")
+    LOGGER.info("💥 Bot On Aa Gya Ra Raju")
     signal(SIGINT, exit_clean_up)
 
 app.start()
