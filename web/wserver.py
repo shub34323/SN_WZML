@@ -232,7 +232,7 @@ function s_validate() {
         </a>
       </div>
       <div class="social">
-        <a href="https://github.com/weebzone/WZML"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/CobraMovies_Team"><i class="fab fa-github"></i></a>
         <a href="https://t.me/CobraMovies_Team"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
@@ -624,7 +624,7 @@ section span{
         </a>
       </div>
       <div class="social">
-        <a href="https://github.com/weebzone/WZML"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/CobraMovies_Team"><i class="fab fa-github"></i></a>
         <a href="https://t.me/CobraMovies_Team"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
