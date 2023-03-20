@@ -151,7 +151,7 @@ if len(SA_MAIL) == 0:
 
 TGH_THUMB = environ.get('TGH_THUMB', '')
 if len(TGH_THUMB) == 0:
-    TGH_THUMB = 'https://te.legra.ph/file/3325f4053e8d68eab07b5.jpg'
+    TGH_THUMB = 'https://graph.org/file/14a9c05712f3f5dfd2209.jpg'
 
 path = "Thumbnails/"
 if not ospath.isdir(path):
@@ -506,7 +506,7 @@ START_BTN2_NAME = environ.get('START_BTN2_NAME', '')
 START_BTN2_URL = environ.get('START_BTN2_URL', '')
 if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:
     START_BTN2_NAME = 'Support Group'
-    START_BTN2_URL = 'https://t.me/WeebZone_updates'
+    START_BTN2_URL = 'https://t.me/CobraMovies_Team'
 
 BUTTON_FOUR_NAME = environ.get('BUTTON_FOUR_NAME', '')
 BUTTON_FOUR_URL = environ.get('BUTTON_FOUR_URL', '')
@@ -587,7 +587,7 @@ if len(AUTHOR_NAME) == 0:
 
 AUTHOR_URL = environ.get('AUTHOR_URL', '')
 if len(AUTHOR_URL) == 0:
-    AUTHOR_URL = 'https://t.me/WeebZone_updates'
+    AUTHOR_URL = 'https://t.me/CobraMovies_Team'
 
 TITLE_NAME = environ.get('TITLE_NAME', '')
 if len(TITLE_NAME) == 0:
