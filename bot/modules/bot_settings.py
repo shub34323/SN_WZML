@@ -29,21 +29,21 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'DOWNLOAD_DIR': '/usr/src/app/downloads/',
                   'TIME_GAP': -1,
                   'TG_SPLIT_SIZE': tgBotMaxFileSize,
-                  'TGH_THUMB': 'https://te.legra.ph/file/3325f4053e8d68eab07b5.jpg',
+                  'TGH_THUMB': 'https://graph.org/file/14a9c05712f3f5dfd2209.jpg',
                   'START_BTN1_NAME': 'Master',
-                  'START_BTN1_URL': 'https://t.me/krn_adhikari',
+                  'START_BTN1_URL': 'https://t.me/honey66',
                   'START_BTN2_NAME': 'Support Group',
-                  'START_BTN2_URL': 'https://t.me/AtrociousBotSupport',
-                  'AUTHOR_NAME': 'Atrocious',
-                  'AUTHOR_URL': 'https://t.me/AtrociousBotSupport',
+                  'START_BTN2_URL': 'https://t.me/CobraMovies_Team',
+                  'AUTHOR_NAME': 'Cobra movies',
+                  'AUTHOR_URL': 'https://t.me/CobraMovies_Team',
                   'TITLE_NAME': 'Atrocious',
-                  'GD_INFO': 'Uploaded by Atrocious Mirror Bot',
-                  'CREDIT_NAME': 'Atrocious',
+                  'GD_INFO': 'Uploaded by Cobra Mirror Bot',
+                  'CREDIT_NAME': 'Cobra Movies',
                   'NAME_FONT': 'code',
                   'CAPTION_FONT': 'code',
                   'FINISHED_PROGRESS_STR': '■',
                   'UN_FINISHED_PROGRESS_STR': '□',
-                  'IMAGE_URL': 'https://graph.org/file/6b22ef7b8a733c5131d3f.jpg',
+                  'IMAGE_URL': 'https://graph.org/file/14a9c05712f3f5dfd2209.jpg',
                   'TIMEZONE': 'Asia/Kolkata',
                   'LIST_MODE': "Telegraph",
                   'SEARCH_LIMIT': 0,
@@ -120,7 +120,7 @@ def load_config():
 
     TGH_THUMB = environ.get('TGH_THUMB', '')
     if len(TGH_THUMB) == 0:
-        TGH_THUMB = 'https://te.legra.ph/file/3325f4053e8d68eab07b5.jpg'
+        TGH_THUMB = 'https://graph.org/file/14a9c05712f3f5dfd2209.jpg'
 
     SA_MAIL = environ.get('SA_MAIL', '')
     if len(SA_MAIL) == 0:
@@ -489,7 +489,7 @@ def load_config():
     START_BTN2_URL = environ.get('START_BTN2_URL', '')
     if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:   
         START_BTN2_NAME = 'Support Group'
-        START_BTN2_URL = 'https://t.me/WeebZone_updates'
+        START_BTN2_URL = 'https://t.me/CobraMovies_Team'
 
     BUTTON_FOUR_NAME = environ.get('BUTTON_FOUR_NAME', '')
     BUTTON_FOUR_URL = environ.get('BUTTON_FOUR_URL', '')
@@ -567,7 +567,7 @@ def load_config():
 
     AUTHOR_URL = environ.get('AUTHOR_URL', '')
     if len(AUTHOR_URL) == 0:    
-        AUTHOR_URL = 'https://t.me/WeebZone_updates'
+        AUTHOR_URL = 'https://t.me/CobraMovies_Team'
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
     if len(TITLE_NAME) == 0:    
@@ -575,11 +575,11 @@ def load_config():
 
     GD_INFO = environ.get('GD_INFO', '')
     if len(GD_INFO) == 0:   
-        GD_INFO = 'Uploaded by WeebZone Mirror Bot'
+        GD_INFO = 'Uploaded by Cobra Mirror Bot'
 
     CREDIT_NAME = environ.get('CREDIT_NAME', '')
     if len(CREDIT_NAME) == 0:   
-        CREDIT_NAME = 'WeebZone'
+        CREDIT_NAME = 'Cobra Movies'
 
     NAME_FONT = environ.get('NAME_FONT', '')
     if len(NAME_FONT) == 0: 
@@ -633,7 +633,7 @@ def load_config():
 
     IMAGE_URL = environ.get('IMAGE_URL', '')
     if len(IMAGE_URL) == 0:
-        IMAGE_URL = 'https://graph.org/file/6b22ef7b8a733c5131d3f.jpg'
+        IMAGE_URL = 'https://graph.org/file/14a9c05712f3f5dfd2209.jpg'
 
     TIMEZONE = environ.get('TIMEZONE', '')
     if len(TIMEZONE) == 0:
